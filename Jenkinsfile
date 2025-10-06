@@ -20,7 +20,7 @@ pipeline {
             }
         }
         
-        stage('Building The Project') {
+        stage('Building The job') {
             steps {
                 sh 'mvn package'
             }
